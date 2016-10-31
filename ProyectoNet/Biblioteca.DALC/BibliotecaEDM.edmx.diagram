@@ -5,10 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="943639f506b244338ec799886d2ab1ca" Name="Diagram1">
-        <EntityTypeShape EntityType="CentroMedicoModel.FichaPaciente" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="CentroMedicoModel.Login" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="CentroMedicoModel.Medico" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <AssociationConnector Association="CentroMedicoModel.FK_Medico_Medico" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="CentroMedicoModel.Login" Width="1.5" PointX="0.625" PointY="0.5" />
+        <EntityTypeShape EntityType="CentroMedicoModel.Medico" Width="1.5" PointX="2.875" PointY="0.5" />
+        <EntityTypeShape EntityType="CentroMedicoModel.Paciente" Width="1.5" PointX="5.125" PointY="0.5" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

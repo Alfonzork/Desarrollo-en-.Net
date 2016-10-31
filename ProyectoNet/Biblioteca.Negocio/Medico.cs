@@ -15,7 +15,7 @@ namespace Biblioteca.Negocio
         private string dv_medico;
         private string nombre_medico;
         private string apellido_medico;
-        private string especialidad;
+        private string especialidad_medico;
         #endregion
 
         #region ---GET & SET---
@@ -85,16 +85,16 @@ namespace Biblioteca.Negocio
             }
         }
 
-        public string Especialidad
+        public string Especialidad_medico
         {
             get
             {
-                return especialidad;
+                return especialidad_medico;
             }
 
             set
             {
-                especialidad = value;
+                especialidad_medico = value;
             }
         }
         #endregion
@@ -114,7 +114,7 @@ namespace Biblioteca.Negocio
             this.dv_medico = string.Empty;
             this.nombre_medico = string.Empty;
             this.apellido_medico = string.Empty;
-            this.especialidad = string.Empty;
+            this.especialidad_medico = string.Empty;
         }
 
         public bool Create()
@@ -128,7 +128,7 @@ namespace Biblioteca.Negocio
                 med.dv_medico = this.dv_medico;
                 med.nombre_medico = this.nombre_medico;
                 med.apellido_medico = this.apellido_medico;
-                med.especialidad_ = this.especialidad;
+                med.especialidad_medico = this.especialidad_medico;
 
                 CommonBC.ModeloCentroMedico.Medico.Add(med);
                 CommonBC.ModeloCentroMedico.SaveChanges();
@@ -155,7 +155,7 @@ namespace Biblioteca.Negocio
                 med.dv_medico = this.dv_medico;
                 med.nombre_medico = this.nombre_medico;
                 med.apellido_medico = this.apellido_medico;
-                med.especialidad_ = this.especialidad;
+                med.especialidad_medico = this.especialidad_medico;
 
                 CommonBC.ModeloCentroMedico.SaveChanges();
     
@@ -182,7 +182,7 @@ namespace Biblioteca.Negocio
                 this.dv_medico = med.dv_medico;
                 this.nombre_medico = med.nombre_medico;
                 this.apellido_medico = med.apellido_medico;
-                this.especialidad = med.especialidad_;
+                this.especialidad_medico = med.especialidad_medico;
 
                 return true;
             }

@@ -25,8 +25,8 @@ namespace Biblioteca.DALC
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<FichaPaciente> FichaPaciente { get; set; }
         public DbSet<Login> Login { get; set; }
         public DbSet<Medico> Medico { get; set; }
+        public DbSet<Paciente> Paciente { get; set; }
     }
 }

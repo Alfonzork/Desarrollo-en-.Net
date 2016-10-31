@@ -25,7 +25,7 @@ namespace Biblioteca.Negocio
                 medicoTemporal.Dv_medico = item.dv_medico;
                 medicoTemporal.Nombre_medico = item.nombre_medico;
                 medicoTemporal.Apellido_medico = item.apellido_medico;
-                medicoTemporal.Especialidad = item.especialidad_;
+                medicoTemporal.Especialidad = item.especialidad_medico;
 
                 medico.Add(medicoTemporal);
             }
@@ -39,11 +39,11 @@ namespace Biblioteca.Negocio
             return GenerarListado(medicos.ToList());
         }
 
-        private List<Biblioteca.Negocio.Paciente> GenLista(List<Biblioteca.DALC.FichaPaciente> pacDALC)
+        private List<Biblioteca.Negocio.Paciente> GenLista(List<Biblioteca.DALC.Paciente> pacDALC)
         {
             List<Biblioteca.Negocio.Paciente> paciente = new List<Paciente>();
 
-            foreach (Biblioteca.DALC.FichaPaciente item in pacDALC)
+            foreach (Biblioteca.DALC.Paciente item in pacDALC)
             {
                 Biblioteca.Negocio.Paciente pacienteTemporal = new Paciente();
                 pacienteTemporal.Id_ficha = item.id_ficha;
@@ -59,7 +59,7 @@ namespace Biblioteca.Negocio
 
         public List<Paciente> ReadAllPaciente()
         {
-            var pacientes = CommonBC.ModeloCentroMedico.FichaPaciente;
+            var pacientes = CommonBC.ModeloCentroMedico.Paciente;
             return GenLista(pacientes.ToList());
         }
 

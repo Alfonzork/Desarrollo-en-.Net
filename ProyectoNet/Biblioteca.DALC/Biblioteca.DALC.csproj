@@ -63,13 +63,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BibliotecaEDM.edmx</DependentUpon>
     </Compile>
-    <Compile Include="FichaPaciente.cs">
-      <DependentUpon>BibliotecaEDM.tt</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <DependentUpon>BibliotecaEDM.tt</DependentUpon>
     </Compile>
     <Compile Include="Medico.cs">
+      <DependentUpon>BibliotecaEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Paciente.cs">
       <DependentUpon>BibliotecaEDM.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

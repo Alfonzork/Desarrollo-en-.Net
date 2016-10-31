@@ -19,9 +19,6 @@ namespace Biblioteca.DALC
         public string dv_medico { get; set; }
         public string nombre_medico { get; set; }
         public string apellido_medico { get; set; }
-        public string especialidad_ { get; set; }
-    
-        public virtual Medico Medico1 { get; set; }
-        public virtual Medico Medico2 { get; set; }
+        public string especialidad_medico { get; set; }
     }
 }

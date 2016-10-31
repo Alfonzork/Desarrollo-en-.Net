@@ -12,7 +12,7 @@ namespace Biblioteca.DALC
     using System;
     using System.Collections.Generic;
     
-    public partial class FichaPaciente
+    public partial class Paciente
     {
         public int id_ficha { get; set; }
         public int rut_paciente { get; set; }

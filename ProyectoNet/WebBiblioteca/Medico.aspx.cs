@@ -50,7 +50,7 @@ namespace WebBiblioteca
                     m.Dv_medico = txtDvMed.Text;
                     m.Nombre_medico = txtNombreMed.Text;
                     m.Apellido_medico = txtApellidoMed.Text;
-                    m.Especialidad = txtEspecialidad.Text;
+                    m.Especialidad_medico = txtEspecialidad.Text;
 
                     m.Create();
                     lblMensaje.Text = "¡Medico Creado con Exito!";

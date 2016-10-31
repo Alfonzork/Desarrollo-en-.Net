@@ -24,3 +24,29 @@ C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\WebBibliote
 C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\WebBiblioteca\bin\Biblioteca.Negocio.pdb
 C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\WebBiblioteca\bin\EntityFramework.xml
 C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\WebBiblioteca\bin\Biblioteca.DALC.pdb
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\csc.exe
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\vbc.exe
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\WebBiblioteca.dll.config
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\WebBiblioteca.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\WebBiblioteca.pdb
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\Biblioteca.Negocio.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\EntityFramework.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\Biblioteca.DALC.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\Biblioteca.Negocio.pdb
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\EntityFramework.xml
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\bin\Biblioteca.DALC.pdb
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\obj\Debug\WebBiblioteca.csprojResolveAssemblyReference.cache
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\obj\Debug\WebBiblioteca.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\obj\Debug\WebBiblioteca.pdb
