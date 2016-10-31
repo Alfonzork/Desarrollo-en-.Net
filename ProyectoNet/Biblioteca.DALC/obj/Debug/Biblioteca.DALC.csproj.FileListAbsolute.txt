@@ -1,0 +1,8 @@
+C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll
+C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.pdb
+C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.csprojResolveAssemblyReference.cache
+C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.dll
+C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.pdb
+C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll.config
+C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\Biblioteca.DALC\bin\Debug\EntityFramework.dll
+C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\Biblioteca.DALC\bin\Debug\EntityFramework.xml
