@@ -9,8 +9,8 @@ namespace WebBiblioteca
 {
     public partial class Medico : System.Web.UI.Page
     {
-        private Biblioteca.Negocio.BibliotecaCollection listaMedico = 
-            new Biblioteca.Negocio.BibliotecaCollection();
+        private Biblioteca.Negocio.MedicoCollection listaMedico = 
+            new Biblioteca.Negocio.MedicoCollection();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -39,6 +39,7 @@ namespace WebBiblioteca
 
         protected void btnGuardarPaciente_Click(object sender, EventArgs e)
         {
+
             try
             {
                 Biblioteca.Negocio.Medico m = new Biblioteca.Negocio.Medico();
@@ -46,8 +47,8 @@ namespace WebBiblioteca
 
                 if (!m.Read())
                 {
-                    m.Rut_medico = int.Parse(txtRutMed.Text);
-                    m.Dv_medico = txtDvMed.Text;
+                    m.Rut_medico = int.Parse(txtRutMed.Text);                   
+                    m.Dv_medico = txtDvMed.Text;                
                     m.Nombre_medico = txtNombreMed.Text;
                     m.Apellido_medico = txtApellidoMed.Text;
                     m.Especialidad_medico = txtEspecialidad.Text;
@@ -69,6 +70,44 @@ namespace WebBiblioteca
             }
         }
 
-        
+        private string ValidaRut(int rut)
+        {
+            int a, b, c, d, e, a1, b1, c1, d1, e1, f, f1, g, g1, h, yy, xx, zz;
+            string dv;
+
+            a = rut / 10000000;
+            a1 = rut % 10000000;
+            b = a1 / 1000000;
+            b1 = a1 % 1000000;
+            c = b1 / 100000;
+            c1 = b1 % 100000;
+            d = c1 / 10000;
+            d1 = c1 % 10000;
+            e = d1 / 1000;
+            e1 = d1 % 1000;
+            f = e1 / 100;
+            f1 = e1 % 100;
+            g = f1 / 10;
+            g1 = f1 % 10;
+            h = g1 / 1;
+
+            yy = (h * 2) + (g * 3) + (f * 4) + (e * 5) + (d * 6) + (c * 7) + (b * 2) + (a * 3);
+            xx = yy % 11;
+            zz = 11 - xx;
+
+            if (zz == 11)
+            {
+                dv =  "0";
+            }
+            else if (zz == 10)
+            {
+                dv = "K";
+                }
+            else { dv = zz.ToString(); }
+
+            return dv;
+
+        }
+
     }
 }

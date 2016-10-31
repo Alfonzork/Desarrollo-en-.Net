@@ -10,8 +10,8 @@ namespace WebBiblioteca
 {
     public partial class Paciente : System.Web.UI.Page
     {
-        private Biblioteca.Negocio.BibliotecaCollection lista =
-            new Biblioteca.Negocio.BibliotecaCollection();
+        private Biblioteca.Negocio.MedicoCollection lista =
+            new Biblioteca.Negocio.MedicoCollection();
 
         protected void Page_Load(object sender, EventArgs e)
         {

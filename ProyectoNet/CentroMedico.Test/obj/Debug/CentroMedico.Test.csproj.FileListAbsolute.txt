@@ -1,0 +1,6 @@
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\CentroMedico.Test\bin\Debug\CentroMedico.Test.exe.config
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\CentroMedico.Test\bin\Debug\CentroMedico.Test.exe
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\CentroMedico.Test\bin\Debug\CentroMedico.Test.pdb
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\CentroMedico.Test\obj\Debug\CentroMedico.Test.csprojResolveAssemblyReference.cache
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\CentroMedico.Test\obj\Debug\CentroMedico.Test.exe
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\CentroMedico.Test\obj\Debug\CentroMedico.Test.pdb

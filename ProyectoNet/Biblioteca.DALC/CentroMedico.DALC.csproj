@@ -48,40 +48,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BibliotecaEDM.Context.cs">
+    <Compile Include="CentroMedicoEDM.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BibliotecaEDM.Context.tt</DependentUpon>
+      <DependentUpon>CentroMedicoEDM.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="BibliotecaEDM.cs">
+    <Compile Include="CentroMedicoEDM.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BibliotecaEDM.tt</DependentUpon>
+      <DependentUpon>CentroMedicoEDM.tt</DependentUpon>
     </Compile>
-    <Compile Include="BibliotecaEDM.Designer.cs">
+    <Compile Include="CentroMedicoEDM.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BibliotecaEDM.edmx</DependentUpon>
+      <DependentUpon>CentroMedicoEDM.edmx</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
-      <DependentUpon>BibliotecaEDM.tt</DependentUpon>
+      <DependentUpon>CentroMedicoEDM.tt</DependentUpon>
     </Compile>
     <Compile Include="Medico.cs">
-      <DependentUpon>BibliotecaEDM.tt</DependentUpon>
+      <DependentUpon>CentroMedicoEDM.tt</DependentUpon>
     </Compile>
     <Compile Include="Paciente.cs">
-      <DependentUpon>BibliotecaEDM.tt</DependentUpon>
+      <DependentUpon>CentroMedicoEDM.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="BibliotecaEDM.edmx">
+    <EntityDeploy Include="CentroMedicoEDM.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>BibliotecaEDM.Designer.cs</LastGenOutput>
+      <LastGenOutput>CentroMedicoEDM.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="BibliotecaEDM.edmx.diagram">
-      <DependentUpon>BibliotecaEDM.edmx</DependentUpon>
+    <None Include="CentroMedicoEDM.edmx.diagram">
+      <DependentUpon>CentroMedicoEDM.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -89,15 +89,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BibliotecaEDM.Context.tt">
+    <Content Include="CentroMedicoEDM.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BibliotecaEDM.edmx</DependentUpon>
-      <LastGenOutput>BibliotecaEDM.Context.cs</LastGenOutput>
+      <DependentUpon>CentroMedicoEDM.edmx</DependentUpon>
+      <LastGenOutput>CentroMedicoEDM.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="BibliotecaEDM.tt">
+    <Content Include="CentroMedicoEDM.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BibliotecaEDM.edmx</DependentUpon>
-      <LastGenOutput>BibliotecaEDM.cs</LastGenOutput>
+      <DependentUpon>CentroMedicoEDM.edmx</DependentUpon>
+      <LastGenOutput>CentroMedicoEDM.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

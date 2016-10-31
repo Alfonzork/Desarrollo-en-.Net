@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="CentroMedicoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="CentroMedicoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Login">
           <Key>
             <PropertyRef Name="IdUsuario" />
@@ -39,22 +39,18 @@
           <EntitySet Name="Medico" EntityType="Self.Medico" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Paciente" EntityType="Self.Paciente" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="CentroMedicoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="CentroMedicoEntities1" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Login" EntityType="CentroMedicoModel.Login" />
-          <EntitySet Name="Medico" EntityType="CentroMedicoModel.Medico" />
-          <EntitySet Name="Paciente" EntityType="CentroMedicoModel.Paciente" />
-        </EntityContainer>
         <EntityType Name="Login">
           <Key>
             <PropertyRef Name="IdUsuario" />
           </Key>
-          <Property Name="IdUsuario" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="IdUsuario" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
         </EntityType>
         <EntityType Name="Medico">
           <Key>
@@ -62,10 +58,10 @@
           </Key>
           <Property Name="id_medico" Type="Int32" Nullable="false" />
           <Property Name="rut_medico" Type="Int32" Nullable="false" />
-          <Property Name="dv_medico" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="nombre_medico" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="apellido_medico" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="especialidad_medico" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="dv_medico" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nombre_medico" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="apellido_medico" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="especialidad_medico" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
         </EntityType>
         <EntityType Name="Paciente">
           <Key>
@@ -73,10 +69,15 @@
           </Key>
           <Property Name="id_ficha" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="rut_paciente" Type="Int32" Nullable="false" />
-          <Property Name="dv_paciente" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="nombre_paciente" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="apellido_paciente" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dv_paciente" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="nombre_paciente" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="apellido_paciente" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
         </EntityType>
+        <EntityContainer Name="CentroMedicoEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Login" EntityType="Self.Login" />
+          <EntitySet Name="Medico" EntityType="Self.Medico" />
+          <EntitySet Name="Paciente" EntityType="Self.Paciente" />
+        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -86,32 +87,32 @@
           <EntitySetMapping Name="Login">
             <EntityTypeMapping TypeName="CentroMedicoModel.Login">
               <MappingFragment StoreEntitySet="Login">
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="Password" ColumnName="Password" />
                 <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Medico">
             <EntityTypeMapping TypeName="CentroMedicoModel.Medico">
               <MappingFragment StoreEntitySet="Medico">
-                <ScalarProperty Name="especialidad_medico" ColumnName="especialidad_medico" />
-                <ScalarProperty Name="apellido_medico" ColumnName="apellido_medico" />
-                <ScalarProperty Name="nombre_medico" ColumnName="nombre_medico" />
-                <ScalarProperty Name="dv_medico" ColumnName="dv_medico" />
-                <ScalarProperty Name="rut_medico" ColumnName="rut_medico" />
                 <ScalarProperty Name="id_medico" ColumnName="id_medico" />
+                <ScalarProperty Name="rut_medico" ColumnName="rut_medico" />
+                <ScalarProperty Name="dv_medico" ColumnName="dv_medico" />
+                <ScalarProperty Name="nombre_medico" ColumnName="nombre_medico" />
+                <ScalarProperty Name="apellido_medico" ColumnName="apellido_medico" />
+                <ScalarProperty Name="especialidad_medico" ColumnName="especialidad_medico" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Paciente">
             <EntityTypeMapping TypeName="CentroMedicoModel.Paciente">
               <MappingFragment StoreEntitySet="Paciente">
-                <ScalarProperty Name="apellido_paciente" ColumnName="apellido paciente" />
-                <ScalarProperty Name="nombre_paciente" ColumnName="nombre paciente" />
-                <ScalarProperty Name="dv_paciente" ColumnName="dv paciente" />
-                <ScalarProperty Name="rut_paciente" ColumnName="rut paciente" />
                 <ScalarProperty Name="id_ficha" ColumnName="id ficha" />
+                <ScalarProperty Name="rut_paciente" ColumnName="rut paciente" />
+                <ScalarProperty Name="dv_paciente" ColumnName="dv paciente" />
+                <ScalarProperty Name="nombre_paciente" ColumnName="nombre paciente" />
+                <ScalarProperty Name="apellido_paciente" ColumnName="apellido paciente" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

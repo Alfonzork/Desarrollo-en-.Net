@@ -43,16 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BibliotecaCollection.cs" />
+    <Compile Include="MedicoCollection.cs" />
     <Compile Include="CommonBC.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="LoginCollection.cs" />
     <Compile Include="Medico.cs" />
     <Compile Include="Paciente.cs" />
+    <Compile Include="PacienteCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Biblioteca.DALC\Biblioteca.DALC.csproj">
+    <ProjectReference Include="..\Biblioteca.DALC\CentroMedico.DALC.csproj">
       <Project>{8ec312c6-9b64-4e96-a11d-909db81f2219}</Project>
-      <Name>Biblioteca.DALC</Name>
+      <Name>CentroMedico.DALC</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

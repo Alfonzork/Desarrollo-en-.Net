@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="panel panel-primary" style="width: 373px">
-                    <div class ="panel-heading"><h3 class ="panel-title"> Ingreso Nuevos Pacientes</h3>
+                    <div class ="panel-heading"><h3 class ="panel-title"> Ingreso Nuevos Médicos</h3>
                     </div>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<table class="auto-style4">
                         <tr>
@@ -115,14 +115,14 @@
                 <!-- /.row -->
                 <div class="panel panel-success" style="width: 666px">
                     <div class ="panel-heading"><h3 class ="panel-title"> Listado de Medicos</h3></div>
-                    <asp:GridView ID="gvMedicos" runat="server" AutoGenerateColumns="False" DataKeyNames="rut_medico" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" Width="665px" >
+                    <asp:GridView ID="gvMedicos" runat="server" AutoGenerateColumns="False" DataKeyNames="rut_medico" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" Width="665px" DataSourceID="" >
                         <Columns>
                             <asp:BoundField DataField="id_medico" HeaderText="Identificador" InsertVisible="False" ReadOnly="True" SortExpression="id_medico" />
                             <asp:BoundField DataField="rut_medico" HeaderText="Rut" ReadOnly="True" SortExpression="rut_medico" />
                             <asp:BoundField DataField="dv_medico" HeaderText="Dv" SortExpression="dv_medico" />
                             <asp:BoundField DataField="nombre_medico" HeaderText="Nombre" SortExpression="nombre_medico" />
                             <asp:BoundField DataField="apellido_medico" HeaderText="Apellido" SortExpression="apellido_medico" />
-                            <asp:BoundField DataField="especialidad_" HeaderText="Especialidad" SortExpression="especialidad_" />
+                            <asp:BoundField DataField="especialidad_medico" HeaderText="Especialidad" SortExpression="especialidad_medico" />
                         </Columns>
                         <FooterStyle BackColor="White" ForeColor="#000066" />
                         <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />

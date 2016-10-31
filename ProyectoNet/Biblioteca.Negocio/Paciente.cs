@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Biblioteca.DALC;
 
 namespace Biblioteca.Negocio
 {
@@ -104,7 +105,7 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.FichaPaciente pac = new DALC.FichaPaciente();
+                Biblioteca.DALC.Paciente pac = new DALC.Paciente();
 
                 pac.id_ficha = this.Id_ficha;
                 pac.rut_paciente = this.Rut_paciente;
@@ -112,7 +113,7 @@ namespace Biblioteca.Negocio
                 pac.nombre_paciente = this.Nombre_paciente;
                 pac.apellido_paciente = this.Apellido_paciente;
 
-                CommonBC.ModeloCentroMedico.FichaPaciente.Add(pac);
+                CommonBC.ModeloCentroMedico.Paciente.Add(pac);
                 CommonBC.ModeloCentroMedico.SaveChanges();
                 return true;
             }
@@ -127,8 +128,8 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.FichaPaciente pac =
-                    CommonBC.ModeloCentroMedico.FichaPaciente.First
+                Biblioteca.DALC.Paciente pac =
+                    CommonBC.ModeloCentroMedico.Paciente.First
                     (
                         pacien => pacien.id_ficha == this.Id_ficha
                         );
@@ -153,8 +154,8 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.FichaPaciente pac =
-                    CommonBC.ModeloCentroMedico.FichaPaciente.First
+                Biblioteca.DALC.Paciente pac =
+                    CommonBC.ModeloCentroMedico.Paciente.First
                     (
                         pacien => pacien.id_ficha == this.Id_ficha
                         );
@@ -163,6 +164,8 @@ namespace Biblioteca.Negocio
                 this.Dv_paciente = pac.dv_paciente;
                 this.Nombre_paciente = pac.nombre_paciente;
                 this.Apellido_paciente = pac.apellido_paciente;
+
+                CommonBC.ModeloCentroMedico.SaveChanges();
 
                 return true;
             }
@@ -177,13 +180,13 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.FichaPaciente pac =
-                   CommonBC.ModeloCentroMedico.FichaPaciente.First
+                Biblioteca.DALC.Paciente pac =
+                   CommonBC.ModeloCentroMedico.Paciente.First
                    (
                        pacien => pacien.id_ficha == this.Id_ficha
                        );
 
-                CommonBC.ModeloCentroMedico.FichaPaciente.Remove(pac);
+                CommonBC.ModeloCentroMedico.Paciente.Remove(pac);
                 CommonBC.ModeloCentroMedico.SaveChanges();
 
                 return true;

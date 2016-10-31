@@ -10,3 +10,9 @@ C:\Users\Alfonzork\Documents\Visual Studio 2015\Projects\ProyectoNet\Biblioteca.
 C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.Negocio\obj\Debug\Biblioteca.Negocio.csprojResolveAssemblyReference.cache
 C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.Negocio\obj\Debug\Biblioteca.Negocio.dll
 C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.Negocio\obj\Debug\Biblioteca.Negocio.pdb
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.Negocio\bin\Debug\Biblioteca.Negocio.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.Negocio\bin\Debug\Biblioteca.Negocio.pdb
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.Negocio\bin\Debug\Biblioteca.DALC.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.Negocio\bin\Debug\Biblioteca.DALC.pdb
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.Negocio\bin\Debug\EntityFramework.xml

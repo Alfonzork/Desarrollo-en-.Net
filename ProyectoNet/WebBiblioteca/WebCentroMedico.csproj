@@ -75,6 +75,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.js" />
     <Content Include="Login.aspx" />
+    <Content Include="MantenedorUsuarios.aspx" />
     <Content Include="Medico.aspx" />
     <Content Include="Paciente.aspx" />
     <Content Include="packages.config" />
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorUsuarios.aspx.cs">
+      <DependentUpon>MantenedorUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MantenedorUsuarios.aspx.designer.cs">
+      <DependentUpon>MantenedorUsuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -145,9 +153,9 @@
     <Folder Include="vendor\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Biblioteca.Negocio\Biblioteca.Negocio.csproj">
+    <ProjectReference Include="..\Biblioteca.Negocio\CentroMedico.Negocio.csproj">
       <Project>{97ddc28e-77c3-482a-83e2-acb05df6bb5a}</Project>
-      <Name>Biblioteca.Negocio</Name>
+      <Name>CentroMedico.Negocio</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
