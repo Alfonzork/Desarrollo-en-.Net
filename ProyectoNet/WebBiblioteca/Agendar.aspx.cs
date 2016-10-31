@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebBiblioteca
+namespace WebCentroMedico
 {
     public partial class Agendar : System.Web.UI.Page
     {

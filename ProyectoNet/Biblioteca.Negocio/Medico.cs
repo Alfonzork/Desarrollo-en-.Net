@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Biblioteca.DALC;
+using CentroMedico.DALC;
 
-namespace Biblioteca.Negocio
+namespace CentroMedico.Negocio
 {
     public class Medico
     {
@@ -135,7 +135,7 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.Medico med = new DALC.Medico();
+                CentroMedico.DALC.Medico med = new DALC.Medico();
 
                 med.id_medico = this.id_medico;
                 med.rut_medico = this.rut_medico;
@@ -159,7 +159,7 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.Medico med = 
+                CentroMedico.DALC.Medico med = 
                     CommonBC.ModeloCentroMedico.Medico.First
                     (
                         medic => medic.id_medico == this.id_medico
@@ -186,7 +186,7 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.Medico med =
+                CentroMedico.DALC.Medico med =
                     CommonBC.ModeloCentroMedico.Medico.First
                     (
                         medic => medic.id_medico == this.id_medico
@@ -213,7 +213,7 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.Medico med =
+                CentroMedico.DALC.Medico med =
                    CommonBC.ModeloCentroMedico.Medico.First
                    (
                        medic => medic.id_medico == this.id_medico

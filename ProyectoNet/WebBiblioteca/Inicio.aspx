@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="WebBiblioteca.Sistema" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="WebCentroMedico.Sistema" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
     <style type="text/css">

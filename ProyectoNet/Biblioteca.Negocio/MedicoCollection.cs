@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Biblioteca.DALC;
+using CentroMedico.DALC;
 
-namespace Biblioteca.Negocio
+namespace CentroMedico.Negocio
 {
     public class MedicoCollection
     {
         public MedicoCollection()
         { }
 
-        private List<Biblioteca.Negocio.Medico> GenerarListado
-            (List<Biblioteca.DALC.Medico> medDALC)
+        private List<CentroMedico.Negocio.Medico> GenerarListado
+            (List<CentroMedico.DALC.Medico> medDALC)
         {
-            List<Biblioteca.Negocio.Medico> medico = new List<Medico>();
+            List<CentroMedico.Negocio.Medico> medico = new List<Medico>();
 
-            foreach (Biblioteca.DALC.Medico item in medDALC)
+            foreach (CentroMedico.DALC.Medico item in medDALC)
             {
-                Biblioteca.Negocio.Medico medicoTemporal = new Medico();
+                CentroMedico.Negocio.Medico medicoTemporal = new Medico();
                 medicoTemporal.Id_medico = item.id_medico;
                 medicoTemporal.Rut_medico = item.rut_medico;
                 medicoTemporal.Dv_medico = item.dv_medico;

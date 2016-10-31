@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Biblioteca.DALC;
+using CentroMedico.DALC;
 
-namespace Biblioteca.Negocio
+namespace CentroMedico.Negocio
 {
     public class Paciente
     {
@@ -105,7 +105,7 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.Paciente pac = new DALC.Paciente();
+                CentroMedico.DALC.Paciente pac = new DALC.Paciente();
 
                 pac.id_ficha = this.Id_ficha;
                 pac.rut_paciente = this.Rut_paciente;
@@ -128,7 +128,7 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.Paciente pac =
+                CentroMedico.DALC.Paciente pac =
                     CommonBC.ModeloCentroMedico.Paciente.First
                     (
                         pacien => pacien.id_ficha == this.Id_ficha
@@ -154,7 +154,7 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.Paciente pac =
+                CentroMedico.DALC.Paciente pac =
                     CommonBC.ModeloCentroMedico.Paciente.First
                     (
                         pacien => pacien.id_ficha == this.Id_ficha
@@ -180,7 +180,7 @@ namespace Biblioteca.Negocio
         {
             try
             {
-                Biblioteca.DALC.Paciente pac =
+                CentroMedico.DALC.Paciente pac =
                    CommonBC.ModeloCentroMedico.Paciente.First
                    (
                        pacien => pacien.id_ficha == this.Id_ficha

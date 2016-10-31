@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Biblioteca.DALC
+namespace CentroMedico.DALC
 {
     using System;
     using System.Collections.Generic;

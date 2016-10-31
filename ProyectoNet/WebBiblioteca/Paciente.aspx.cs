@@ -4,14 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Biblioteca.Negocio;
+using CentroMedico.Negocio;
 
-namespace WebBiblioteca
+namespace WebCentroMedico
 {
     public partial class Paciente : System.Web.UI.Page
     {
-        private Biblioteca.Negocio.MedicoCollection lista =
-            new Biblioteca.Negocio.MedicoCollection();
+        private CentroMedico.Negocio.MedicoCollection lista =
+            new CentroMedico.Negocio.MedicoCollection();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -40,7 +40,7 @@ namespace WebBiblioteca
         {
             try
             {
-                Biblioteca.Negocio.Paciente p = new Biblioteca.Negocio.Paciente();
+                CentroMedico.Negocio.Paciente p = new CentroMedico.Negocio.Paciente();
                 p.Id_ficha = int.Parse(txtNFicha.Text);
 
                 if (!p.Read())

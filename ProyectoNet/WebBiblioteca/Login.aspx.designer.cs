@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace WebBiblioteca {
+namespace WebCentroMedico {
     
     
     public partial class Login {

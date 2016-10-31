@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Biblioteca.DALC;
+using CentroMedico.DALC;
 
-namespace Biblioteca.Negocio
+namespace CentroMedico.Negocio
 {
     public class Login
     {

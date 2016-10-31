@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Biblioteca.DALC;
+using CentroMedico.DALC;
 
-namespace Biblioteca.Negocio
+namespace CentroMedico.Negocio
 {
     public class PacienteCollection
     {
         public PacienteCollection()
         { }
 
-        private List<Biblioteca.Negocio.Paciente> GenLista(List<Biblioteca.DALC.Paciente> pacDALC)
+        private List<CentroMedico.Negocio.Paciente> GenLista(List<CentroMedico.DALC.Paciente> pacDALC)
         {
-            List<Biblioteca.Negocio.Paciente> paciente = new List<Paciente>();
+            List<CentroMedico.Negocio.Paciente> paciente = new List<Paciente>();
 
-            foreach (Biblioteca.DALC.Paciente item in pacDALC)
+            foreach (CentroMedico.DALC.Paciente item in pacDALC)
             {
-                Biblioteca.Negocio.Paciente pacienteTemporal = new Paciente();
+                CentroMedico.Negocio.Paciente pacienteTemporal = new Paciente();
                 pacienteTemporal.Id_ficha = item.id_ficha;
                 pacienteTemporal.Rut_paciente = item.rut_paciente;
                 pacienteTemporal.Dv_paciente = item.dv_paciente;

@@ -5,12 +5,12 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebBiblioteca
+namespace WebCentroMedico
 {
     public partial class Medico : System.Web.UI.Page
     {
-        private Biblioteca.Negocio.MedicoCollection listaMedico = 
-            new Biblioteca.Negocio.MedicoCollection();
+        private CentroMedico.Negocio.MedicoCollection listaMedico = 
+            new CentroMedico.Negocio.MedicoCollection();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -42,7 +42,7 @@ namespace WebBiblioteca
 
             try
             {
-                Biblioteca.Negocio.Medico m = new Biblioteca.Negocio.Medico();
+                CentroMedico.Negocio.Medico m = new CentroMedico.Negocio.Medico();
                 m.Id_medico = int.Parse(txtIdentificador.Text);
 
                 if (!m.Read())

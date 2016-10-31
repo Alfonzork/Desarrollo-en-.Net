@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Biblioteca.DALC;
+using CentroMedico.DALC;
 
-namespace Biblioteca.Negocio
+namespace CentroMedico.Negocio
 {
     public class LoginCollection
     {
         public LoginCollection()
         { }
 
-        private List<Biblioteca.Negocio.Login> GenerarListado(List<Biblioteca.DALC.Login> logDALC)
+        private List<CentroMedico.Negocio.Login> GenerarListado(List<CentroMedico.DALC.Login> logDALC)
         {
-            List<Biblioteca.Negocio.Login> login = new List<Login>();
+            List<CentroMedico.Negocio.Login> login = new List<Login>();
 
-            foreach (Biblioteca.DALC.Login item in logDALC)
+            foreach (CentroMedico.DALC.Login item in logDALC)
             {
-                Biblioteca.Negocio.Login loginTemporal = new Login();
+                CentroMedico.Negocio.Login loginTemporal = new Login();
 
                 loginTemporal.IdUsuario = item.IdUsuario;
                 loginTemporal.Password = item.Password;

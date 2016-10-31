@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Biblioteca.DALC
+namespace CentroMedico.DALC
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CentroMedicoEntities : DbContext
+    public partial class CentroMedicoEntities1 : DbContext
     {
-        public CentroMedicoEntities()
-            : base("name=CentroMedicoEntities")
+        public CentroMedicoEntities1()
+            : base("name=CentroMedicoEntities1")
         {
         }
     

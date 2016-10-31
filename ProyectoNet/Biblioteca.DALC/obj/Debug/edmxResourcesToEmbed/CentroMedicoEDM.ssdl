@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CentroMedicoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Medico">
+    <Key>
+      <PropertyRef Name="id_medico" />
+    </Key>
+    <Property Name="id_medico" Type="int" Nullable="false" />
+    <Property Name="rut_medico" Type="int" Nullable="false" />
+    <Property Name="dv_medico" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nombre_medico" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellido_medico" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="especialidad_medico" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Paciente">
+    <Key>
+      <PropertyRef Name="id ficha" />
+    </Key>
+    <Property Name="id ficha" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="rut paciente" Type="int" Nullable="false" />
+    <Property Name="dv paciente" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="nombre paciente" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="apellido paciente" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="CentroMedicoModelStoreContainer">
+    <EntitySet Name="Login" EntityType="Self.Login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Medico" EntityType="Self.Medico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Paciente" EntityType="Self.Paciente" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,3 @@
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\obj\Debug\WebCentroMedico.csprojResolveAssemblyReference.cache
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\obj\Debug\WebBiblioteca.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\WebBiblioteca\obj\Debug\WebBiblioteca.pdb

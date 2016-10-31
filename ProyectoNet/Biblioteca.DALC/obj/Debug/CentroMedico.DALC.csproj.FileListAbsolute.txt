@@ -1,0 +1,8 @@
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll.config
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.pdb
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.DALC\bin\Debug\EntityFramework.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.DALC\bin\Debug\EntityFramework.xml
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.DALC\obj\Debug\CentroMedico.DALC.csprojResolveAssemblyReference.cache
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.dll
+C:\Users\Alfonzork\Source\Repos\Desarrollo-en-.Net\ProyectoNet\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.pdb

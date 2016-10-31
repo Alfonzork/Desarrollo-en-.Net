@@ -7,8 +7,8 @@
     <ProjectGuid>{97DDC28E-77C3-482A-83E2-ACB05DF6BB5A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Biblioteca.Negocio</RootNamespace>
-    <AssemblyName>Biblioteca.Negocio</AssemblyName>
+    <RootNamespace>CentroMedico.Negocio</RootNamespace>
+    <AssemblyName>CentroMedico.Negocio</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -35,6 +35,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
